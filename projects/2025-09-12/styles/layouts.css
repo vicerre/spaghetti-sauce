@@ -1,0 +1,96 @@
+/* Extend default styles */
+
+:root {
+    --color-alis: #008040;
+    --color-solana: #F30C0C;
+    --color-vic: #4400CC;
+}
+
+.col-right {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: stretch;
+    min-height: 0; /* https://stackoverflow.com/a/36247448 */
+}
+
+.two-columns {
+    gap: 16px;
+}
+
+/* Apply custom styles */
+
+.colored-edge {
+    --color-edge: transparent;
+
+    &::after {
+        background-color: var(--color-edge);
+        content: "";
+
+        display: block;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        width: 4px;
+        top: 0;
+    }
+    &::before {
+        background-color: var(--color-edge);
+        content: "";
+
+        display: block;
+        left: 0;
+        height: 100%;
+        position: absolute;
+        width: 4px;
+        top: 0;
+    }
+}
+
+.colored-edge-alis {
+    --color-edge: var(--color-alis);
+}
+.colored-edge-solana {
+    --color-edge: var(--color-solana);
+}
+.colored-edge-vic {
+    --color-edge: var(--color-vic);
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    align-items: center;
+    display: grid;
+    justify-items: center;
+
+    & > img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+.grid-1x1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid-2x2 {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+}
+
+.grid-2x3 {
+    grid-template-columns: repeat(3, 33.3333%);
+    grid-template-rows: repeat(2, 50%);
+}
+
+.grid-4x4 {
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%);
+}
