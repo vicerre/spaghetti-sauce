@@ -1,0 +1,1 @@
+Anime settei character turnaround from front pose to side pose, linear easing, static 3D model.

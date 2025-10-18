@@ -1,0 +1,3 @@
+I've uploaded a blog (written by me) called _Spaghetti Ice_ detailing the adventures of a set of characters. Analyze the blog posts and create a synopsis of its contents, prioritizing newer entries.
+
+Note that images, while critical, had to be removed from this directory due to file size limitations, so you will be working with incomplete information.

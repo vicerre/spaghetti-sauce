@@ -1,0 +1,3 @@
+best quality, 1boy facing away, forwards grip, ice blue polearm, brown hair, brown fleece coat, red scarf, official concept art
+Negative prompt: nsfw, error, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name
+Steps: 20, Sampler: DDIM, CFG scale: 15, Seed: 3251110544, Size: 768x768, Model hash: 8712e20a5d, Denoising strength: 0.5, Mask blur: 4, ControlNet Enabled: True, ControlNet Module: none, ControlNet Model: control_sd15_scribble [fef5e48e], ControlNet Weight: 0.7

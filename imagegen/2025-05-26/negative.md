@@ -1,0 +1,11 @@
+Bad:
+- alto (doesn't seem to work?)
+- charming (too spontaneous)
+- confident (too low)
+- curious (seems more inquisitive than naive?)
+- innocent (sounds kiddish and naive)
+- naive (sounds slightly juvenile)
+- professorial (stuffy and stern-sounding)
+- rounded (a little low)
+- tenor (not high enough)
+- transatlantic (doesn't seem to affect results)

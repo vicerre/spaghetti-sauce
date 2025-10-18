@@ -1,0 +1,6 @@
+
+Medium shot of a red-haired woman on the left and a man with two-tone hair on the right sitting across from each other at a small, pastel-toned ice cream parlor booth. In between them is a strawberry ice cream boat. Each has a metal spoon. The man and woman alternate between taking spoonfuls of ice cream to eat. The camera cuts between close-ups of the woman's and man's goofy faces as they eat.
+
+The entire scene is rendered using a pinkish-blueish-yellowish pastel lighting filter. The scene is rendered in the style of a 2D, hand-drawn Japanese anime film, cinematic golden hour lighting, bokeh, a subtle Gaussian blur, and a shallow depth of field.
+
+Negative prompt: Fox ears.

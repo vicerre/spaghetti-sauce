@@ -1,0 +1,15 @@
+A man and woman are holding an anime-style fight at roughly the opposite ends of the roof of a skyscraper. The woman has red-orange hair, and the man has brown-and-white-hair. Both combatants are skilled fighters, and while they are taking the fight seriously, they seem to be having fun. Both are almost able to land hits on each other, with the other being able to dodge out of the way, and neither of them are getting seriously hurt.
+
+Sequence of events:
+1. The woman throws fireballs from her hands, which the man dodges.
+2. The man returns by casting ice spikes from the ground from him towards the woman, who leaps to the side.
+3. The woman continues with a rapid run towards the man to pounce on him, growing fox claws, but the man escapes by opening a cyan portal and darting through it.
+4. The woman looks around for the man while ice slowly climbs up around her feet, until she realizes and blasts upwards using her fire powers.
+5. The man re-emerges from a cyan portal holding an ice scythe, swinging at the woman, who ducks, narrowly cutting a few of her hairs.
+
+The camera:
+1. Uses a high-angle view, focusing primarily on the overall flow of combat.
+2. Is very dynamic, circling around and cutting quickly as each combatant volleys each attacks.
+3. Uses extreme, exaggerated perspective with a bit of fisheye distortion.
+
+Negative prompt: kemonomimi, fox ears

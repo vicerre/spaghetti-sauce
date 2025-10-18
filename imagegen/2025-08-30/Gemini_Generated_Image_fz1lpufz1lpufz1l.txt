@@ -1,0 +1,1 @@
+Can you draw this character as a stick figure comic as drawn by Randall Munroe (the creator of the comic _XKCD_)? Make sure to preserve his iconic features so he looks distinct even as a stick figure. Make sure the comic is composed of black and white lines + text just like the original, and make sure the comic uses XKCD-style humor. 
