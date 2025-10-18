@@ -1,0 +1,30 @@
+#! /usr/bin/env bash
+
+set -euxo pipefail
+
+IMAGE_WIDTH=800 # or 25% = 1241
+
+DIR_IN=batch
+DIR_OUT=images
+PREFIX_IN=raw
+PREFIX_OUT=obfuscated
+
+FIND_PATTERN="$PREFIX_IN*.png"
+MATCH_PATTERN="$DIR_IN/$PREFIX_IN(.*).png"
+
+files=$(find $DIR_IN -name "$FIND_PATTERN")
+
+for file in $files;
+do
+  # https://stackoverflow.com/questions/65055610/
+  if [[ $file =~ $MATCH_PATTERN ]]
+  then
+    index="${BASH_REMATCH[1]}"
+    outfile="$DIR_OUT/$PREFIX_OUT$index.png"
+
+    npx sharp-cli -i "$file" -o "$outfile" resize "$IMAGE_WIDTH"
+
+    # https://imagemagick.org/Usage/filter/#photoshop
+    # convert "$file" -scale 25% -filter Catrom "$outfile"
+  fi
+done

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg-dark: black;
+        --bg-light: white;
+        --border-bottom: 1px solid white;
+        --border-wordmark: 4px solid #121535;
+        --filter-frozen: drop-shadow(0 0 2px #efface);
+        --font-large: 72px;
+        --font-larger: 88px;
+        --font-medium: 64px;
+        --font-small: 32px;
+        --main-accent: #1ce;
+        --main-dark: black;
+        --main-bg: #121535;
+        --main-frozen: #1ce;
+        --main-light: white;
+        --main-text: white;
+        --padding-frozen: 0 8px;
+        --padding-wordmark: 16px 32px;
+        --size-medium: 16px;
+        --size-tinier: 2px;
+        --size-tiny: 3px;
+
+        box-sizing: border-box;
+      }
+
+      .ce {
+        font-size: var(--font-larger);
+      }
+      .i {
+        font-size: var(--font-large);
+      }
+      .ice {
+        display: inline-block;
+        font-family: Sevillana, cursive;
+        letter-spacing: var(--size-tinier);
+        text-shadow: 0 0 1px color-mix(in srgb, currentColor, transparent);
+      }
+      .ice-color {
+        color: var(--main-accent);
+      }
+      .ice-cube {
+        background-color: var(--main-accent);
+        /* border-radius: calc(100% / 3) 0; */
+        color: var(--main-bg);
+        padding: var(--padding-frozen);
+      }
+      .ice-dark {
+        color: var(--main-dark);
+      }
+      .ice-light {
+        color: var(--main-light);
+      }
+      .paghetti {
+        font-size: var(--font-medium);
+        font-weight: 500;
+      }
+      .s {
+        font-size: var(--font-large);
+        font-weight: 500;
+      }
+      .space {
+        font-size: var(--font-small);
+        white-space: pre;
+      }
+      .spaghetti {
+        font-family: Cinzel, serif;
+        letter-spacing: var(--size-tiny);
+        paint-order: stroke fill;
+      }
+      .spaghetti-color {
+        color: var(--main-text);
+        text-shadow: 0 0 1px color-mix(in srgb, currentColor, transparent);
+        -webkit-text-stroke: 1px var(--main-frozen);
+      }
+      .spaghetti-dark {
+        color: var(--main-dark);
+      }
+      .spaghetti-light {
+        color: var(--main-light);
+      }
+      /*
+      .underline {
+        border: var(--border-bottom);
+        bottom: var(--size-medium);
+        left: var(--size-medium);
+        margin: 0 var(--size-medium);
+        position: absolute;
+        right: var(--size-medium);
+      }
+      .underline-wrapper {
+        display: inline-flex;
+        position: relative;
+      }
+      */
+      .wordmark {
+        display: inline-block;
+        padding: var(--padding-wordmark);
+      }
+      .wordmark-dark {
+        background-color: var(--bg-dark);
+        color: var(--main-light);
+      }
+      .wordmark-color {
+        background-color: var(--main-bg);
+        border: var(--border-wordmark);
+        color: var(--main-text);
+        filter: var(--filter-frozen);
+      }
+      .wordmark-light {
+        background-color: var(--bg-light);
+        color: var(--main-dark);
+      }
+      .wordmark-wrapper {
+        margin: 0;
+      }
+    </style>
+    <title>Wordmark</title>
+  </head>
+  <body>
+    <div>
+      <h1>Full color</h1>
+      <p class="wordmark-wrapper">
+        <span class="wordmark wordmark-color">
+          <span class="spaghetti spaghetti-color">
+            <span class="s">S</span><span class="paghetti">paghetti</span>
+          </span>
+          <span class="space"> </span>
+          <span class="ice ice-cube">
+            <span class="i">I</span><span class="ce">ce</span>
+          </span>
+        </span>
+      </p>
+      <h1>Simplified</h1>
+      <p class="wordmark-wrapper">
+        <span class="wordmark wordmark-color">
+          <span class="spaghetti spaghetti-color">
+            <span class="s">S</span><span class="paghetti">paghetti</span>
+          </span>
+          <span class="space"> </span>
+          <span class="ice ice-color">
+            <span class="i">I</span><span class="ce">ce</span>
+          </span>
+        </span>
+      </p>
+      <h1>White on black</h1>
+      <p class="wordmark-wrapper">
+        <span class="wordmark wordmark-dark">
+          <span class="spaghetti spaghetti-light">
+            <span class="s">S</span><span class="paghetti">paghetti</span>
+          </span>
+          <span class="space"> </span>
+          <span class="ice ice-light">
+            <span class="i">I</span><span class="ce">ce</span>
+          </span>
+        </span>
+      </p>
+      <h1>Black on white</h1>
+      <p class="wordmark-wrapper">
+        <span class="wordmark wordmark-light">
+          <span class="spaghetti spaghetti-dark">
+            <span class="s">S</span><span class="paghetti">paghetti</span>
+          </span>
+          <span class="space"> </span>
+          <span class="ice ice-dark">
+            <span class="i">I</span><span class="ce">ce</span>
+          </span>
+        </span>
+      </p>
+    </div>
+  </body>
+</html>

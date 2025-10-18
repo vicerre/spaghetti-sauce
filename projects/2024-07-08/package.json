@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "serve": "npx serve",
+    "validate": "npx tsc"
+  }
+}

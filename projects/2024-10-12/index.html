@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <style>
+    /* https://stackoverflow.com/a/75685100 */
+    /*
+    :root {
+      --border-color: #171535;
+      --border-offset: 1px;
+      --border-width: 0px;
+    }
+    svg {
+      filter:
+        drop-shadow(calc(-1 * var(--border-offset)) 0 var(--border-width) var(--border-color))
+        drop-shadow(var(--border-offset) 0 var(--border-width) var(--border-color))
+        drop-shadow(0 calc(-1 * var(--border-offset)) var(--border-width) var(--border-color))
+        drop-shadow(0 var(--border-offset) var(--border-width) var(--border-color));
+    }
+     */
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="importmap">
+    {
+      "imports": {
+        "d3": "https://esm.sh/d3@7.9.0"
+      }
+    }
+  </script>
+  <script src="./index.js" type="module"></script>
+</body>
