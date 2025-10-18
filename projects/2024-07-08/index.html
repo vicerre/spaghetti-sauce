@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono"
+      rel="stylesheet"
+    />
+    <link href="images/favicon.png" rel="icon" />
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <meta property="og:description" content="A short manga puzzle." />
+    <meta property="og:image" content="images/favicon.png" />
+    <meta property="og:title" content="『VICminusRomance』" />
+    <meta property="og:type" content="game" />
+    <title>『VICminusRomance』</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="importmap">
+      {
+        "imports": {
+          "lodash": "https://esm.sh/lodash@4.17.21",
+          "react": "https://esm.sh/react@18.3.1",
+          "react-dom": "https://esm.sh/react-dom@18.3.1",
+          "zustand": "https://esm.sh/zustand@4.5.4?external=react",
+          "zustand/middleware": "https://esm.sh/zustand@4.5.4/middleware?external=react"
+        }
+      }
+    </script>
+    <script src="lib/index.js" type="module"></script>
+  </body>
+</html>
