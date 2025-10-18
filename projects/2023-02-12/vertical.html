@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <style type="text/css">
+      /*@import url("https://themes.googleusercontent.com/fonts/css?kit=RaWPb2xcoh-qlzgGECVA8N6mXRPc4vgcjho0ObfETuw");*/
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <style>
+      img[src^="simages3/"] {
+        height: 976px;
+        width: 672px;
+        /*height: 488px;*/
+        /*width: 336px;*/
+      }
+      img[src^="ui/"] {
+        filter: drop-shadow(2px 0 0 white) drop-shadow(-2px 0 0 white)
+          drop-shadow(0 2px 0 white) drop-shadow(0 -2px 0 white);
+        height: 48px;
+        width: 48px;
+      }
+      p {
+        font-size: 36px;
+        margin: 0;
+        text-align: center;
+      }
+      span {
+        color: white;
+        /*font-family: "JetBrains Mono", "monospace";*/
+        font-family: "Noto Sans", "sans-serif";
+      }
+
+      /* CSS classes */
+
+      .footer {
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 8px solid rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        grid-gap: 16px;
+        justify-content: space-between;
+        padding: 16px;
+      }
+      .header {
+        border: 4px solid white;
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        padding: 24px 8px;
+        grid-gap: 8px;
+      }
+      .invisible {
+        visibility: hidden;
+      }
+      .item {
+        border: 4px solid white;
+        display: flex;
+        flex-direction: column;
+      }
+      .items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .name {
+        align-items: center;
+        display: flex;
+      }
+      .stars {
+        display: flex;
+        grid-gap: 8px;
+      }
+      .template {
+        background-color: #004080;
+        display: inline-flex;
+        flex-direction: column;
+      }
+    </style>
+    <title>Fighting Game Palettes</title>
+  </head>
+  <body>
+    <h1>Template</h1>
+
+    <div class="template">
+      <div class="header" style="position: relative">
+        <p>
+          <span style="font-size: 72px">The OC Palette Guessing Game!</span>
+        </p>
+        <p>
+          <span style="font-size: 48px">Featured character: ____________</span>
+        </p>
+        <p style="bottom: 16px; position: absolute; right: 16px">
+          <span style="font-size: 24px">Template by [redacted]</span>
+        </p>
+      </div>
+      <div class="items">
+        <div class="item" style="background-color: #121535">
+          <img class="invisible" src="simages3/default.png" />
+          <div class="footer">
+            <p
+              class="stars"
+              style="
+                display: flex;
+                flex-direction: column;
+                height: 48px;
+                justify-content: center;
+              "
+            >
+              <span style="color: rgba(255, 255, 255, 0.7); font-size: 24px"
+                >(default)</span
+              >
+            </p>
+            <p class="name">
+              <span>________________________________</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="invisible" src="simages3/yae-xbr.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star1.png" />
+            </p>
+            <p class="name">
+              <span>________________________________</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="invisible" src="simages3/ahri.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star1.png" />
+              <img src="ui/star1.png" />
+            </p>
+            <p class="name">
+              <span>________________________________</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="invisible" src="simages3/crunchyrollhime.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+            </p>
+            <p class="name">
+              <span>________________________________</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="invisible" src="simages3/zoologist-mosaic.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+            </p>
+            <p class="name">
+              <span>________________________________</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="invisible" src="simages3/ran-jpeg.jpg" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+            </p>
+            <p class="name">
+              <span>________________________________</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="invisible" src="simages3/misasagi.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+            </p>
+            <p class="name">
+              <span>________________________________</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="invisible" src="simages3/firefox.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+            </p>
+            <p class="name">
+              <span>________________________________</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="invisible" src="simages3/dakki-paper.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star4.png" />
+              <img src="ui/star4.png" />
+              <img src="ui/star4.png" />
+              <img src="ui/star4.png" />
+              <img src="ui/star4.png" />
+            </p>
+            <p class="name">
+              <span>________________________________</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1>S3</h1>
+
+    <div class="template">
+      <div class="header" style="position: relative">
+        <p>
+          <span style="font-size: 72px">The OC Palette Guessing Game!</span>
+        </p>
+<!--        <p>-->
+<!--          <span style="font-size: 48px">Featured character: [redacted]</span>-->
+<!--        </p>-->
+<!--        <p style="bottom: 16px; position: absolute; right: 16px">-->
+<!--          <span style="font-size: 24px">Template by [redacted]</span>-->
+<!--        </p>-->
+      </div>
+      <div class="items">
+        <div class="item" style="background-color: #121535">
+          <img src="simages3/default.png" />
+          <div class="footer">
+            <p
+              class="stars"
+              style="
+                display: flex;
+                flex-direction: column;
+                height: 48px;
+                justify-content: center;
+              "
+            >
+              <span style="color: rgba(255, 255, 255, 0.7); font-size: 24px"
+                >(default)</span
+              >
+            </p>
+            <p class="name">
+              <span>Sunny Hybrid</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="simages3/yae-xbr.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star1.png" />
+            </p>
+            <p class="name">
+              <span>Astute Miko</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="simages3/ahri.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star1.png" />
+              <img src="ui/star1.png" />
+            </p>
+            <p class="name">
+              <span>Elegant Legend</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="simages3/crunchyrollhime.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+            </p>
+            <p class="name">
+              <span>Crunchy Streamer</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="simages3/zoologist-mosaic.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+            </p>
+            <p class="name">
+              <span>Zooey Lycanthrope</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="simages3/ran-jpeg.jpg" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+            </p>
+            <p class="name">
+              <span>Eastern Bullet</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="simages3/misasagi.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+              <img src="ui/star2.png" />
+            </p>
+            <p class="name">
+              <span>Runic Serendipity</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="simages3/firefox.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+              <img src="ui/star3.png" />
+            </p>
+            <p class="name">
+              <span>Quantum Merryweather</span>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="simages3/dakki-paper.png" />
+          <div class="footer">
+            <p class="stars">
+              <img src="ui/star4.png" />
+              <img src="ui/star4.png" />
+              <img src="ui/star4.png" />
+              <img src="ui/star4.png" />
+              <img src="ui/star4.png" />
+            </p>
+            <p class="name">
+              <span>Graceful Zombie</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
