@@ -1,0 +1,3 @@
+urban fantasy character design,winter coat,herringbone,red scarf,on one leg,male,cheekbones,pointy,ice crystal wings,glass wings,anime,featured on pixiv,featured on artstation,genshin impact,4k,game art,concept art,highly detailed,epic lighting,intricate,illustration,digital painting,art by Yuumei,art by Stjepan Sejic,art by Sam Nielson
+Negative prompt: leather,punk,water
+Steps: 100, Sampler: Euler a, CFG scale: 12, Seed: 3788239212, Size: 768x768, Model hash: 2c02b20a, Batch size: 4, Batch pos: 0, Denoising strength: 0.5, Mask blur: 4

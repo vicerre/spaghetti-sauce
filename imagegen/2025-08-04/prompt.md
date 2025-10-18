@@ -1,0 +1,1 @@
+An anime-style cinemagraph still of two characters sitting underneath a large tree. The wind rustles the leaves on the tree and sways the hair on the characters. The camera is fixed and the characters don't change positions.

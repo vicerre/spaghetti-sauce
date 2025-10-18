@@ -1,0 +1,3 @@
+masterpiece,high quality,best quality,highest detail,4k,((male)),((man)),(((cheekbones))),(pointy nose),long face,angular,((brown hair)),white hair accent,icy blue eyes,laptop,turtleneck,thick winter coat,thick red scarf
+Negative prompt: nsfw, lowres, (bad anatomy:1.21), bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name
+Steps: 100, Sampler: Euler a, CFG scale: 13, Seed: 1815414972, Size: 768x1024, Model hash: 6569e224, Batch size: 2, Batch pos: 0, Denoising strength: 0.5, Mask blur: 4
